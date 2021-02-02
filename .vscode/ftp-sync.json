@@ -6,8 +6,8 @@
     "port": 21,
     "secure": false,
     "protocol": "ftp",
-    "uploadOnSave": false,
-    "passive": false,
+    "uploadOnSave": true,
+    "passive": true,
     "debug": false,
     "privateKeyPath": null,
     "passphrase": null,
@@ -20,7 +20,11 @@
     ],
     "generatedFiles": {
         "extensionsToInclude": [
-            ""
+            ".css",
+            ".min.css",
+            ".min.css.map",
+            ".html",
+            ".js"
         ],
         "path": ""
     }
