@@ -1,15 +1,51 @@
+
+@import "mobstyle.css" screen and (max-width: 720px) ;
+@import "padstyle.css" screen and (min-width: 720.5px) and (max-width:900px) ;
+@import "pcstyle.css" screen and (min-width: 900.5px);
+
+
 body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    background-color: antiquewhite;
 }
 .info-box{
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-img .logo{
-    width:80;
-    height:auto;
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(/assets/img/drawing-1.svg);
+  background-size: 100px 82px;
+  
+}
+.navigation{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+.nav-logo{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+footer{
+position: relative;
+background-color:whitesmoke;
+width: 100%;
+height: fit-content;
 }
